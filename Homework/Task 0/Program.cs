@@ -9,7 +9,7 @@ int[] GenerateArray(int length, int minRandom, int maxRandom)
     int[] answer = new int[length];
     for (int i = 0; i < answer.Length; i++)
     {
-        answer[i] = rnd.Next(minRandom, maxRandom + 1);
+        answer[i] = rnd.Next(minRandom, maxRandom);
     }
     return answer;
 }
